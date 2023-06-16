@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
                 retro_instance.callApi().MODEL_CLASS_CALL(sname,semail,spassword).enqueue(new Callback<model_class>() {
                     @Override
                     public void onResponse(Call<model_class> call, Response<model_class> response) {
-                        Log.d("TAG", "onResponse: "+response.body().toString());
+                        Log.d("TTT", "onResponse: "+response.body().toString());
 
-                        Log.d("con", "onResponse: Connection"+response.body().connection);
+                        Log.d("TTT", "onResponse: Connection"+response.body().connection);
                         if(response.body().result==1){
 
                             Toast.makeText(MainActivity.this, "successfully register", Toast.LENGTH_LONG).show();
