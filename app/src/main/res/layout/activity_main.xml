@@ -18,13 +18,13 @@
             android:layout_marginTop="32dp"
             android:id="@+id/applogo"
             android:layout_gravity="center_horizontal"
-            tools:srcCompat="@drawable/app_logo" />
+            tools:srcCompat="@drawable/ecommerce" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="MY APP"
+            android:text="Ecommerce"
             android:textSize="34sp"
             android:id="@+id/t1"
             android:layout_marginTop="32dp"
@@ -48,6 +48,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
+                android:layout_margin="@dimen/_10sdp"
                 android:text="NAME:"
                 android:textSize="30sp"
                 />
@@ -57,6 +58,7 @@
                 android:layout_height="wrap_content"
                 android:hint="enter your name"
                 android:layout_marginHorizontal="10dp"
+                android:layout_margin="@dimen/_5sdp"
                 android:layout_marginTop="30dp"
                 android:textSize="30sp"
                 android:id="@+id/edit_name"
@@ -75,6 +77,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
+                android:layout_margin="@dimen/_10sdp"
                 android:text="EMAIL:"
                 android:textSize="30sp"
                 />
@@ -84,6 +87,7 @@
                 android:layout_height="wrap_content"
                 android:hint="enter your email"
                 android:layout_marginHorizontal="10dp"
+                android:layout_margin="@dimen/_5sdp"
                 android:layout_marginTop="30dp"
                 android:textSize="30sp"
                 android:id="@+id/edit_email"
@@ -102,6 +106,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
+                android:layout_margin="@dimen/_10sdp"
                 android:text="PASSWORD:"
                 android:textSize="25sp"
                 />
@@ -110,6 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="enter your password"
+                android:layout_margin="@dimen/_5sdp"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginTop="30dp"
                 android:textSize="25sp"
@@ -123,7 +129,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SUBMIT"
-            android:background="#673AB7"
+            android:background="#181819"
             app:backgroundTint="@null"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
